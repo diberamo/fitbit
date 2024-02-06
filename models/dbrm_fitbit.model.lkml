@@ -12,6 +12,7 @@ datagroup: dbrm_fitbit_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+
 persist_with: dbrm_fitbit_default_datagroup
 
 include: "/lookml_dash/*.dashboard.lookml"
