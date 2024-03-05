@@ -1,5 +1,5 @@
 # Define the database connection to be used for this model.
-connection: "dbrm_argolis"
+connection: "dbrm_bigquery"
 
 # include all the views
 include: "/views/**/*.view"
@@ -11,6 +11,7 @@ datagroup: dbrm_fitbit_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
 }
+
 
 persist_with: dbrm_fitbit_default_datagroup
 
