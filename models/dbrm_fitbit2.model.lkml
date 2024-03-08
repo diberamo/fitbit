@@ -1,5 +1,5 @@
 # Define the database connection to be used for this model.
-connection: "dbrm_bigquery"
+connection: "dbrm_argolis"
 
 # include all the views
 include: "/views/**/*.view"

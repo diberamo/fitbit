@@ -70,6 +70,7 @@ view: fitbit_metrics {
     sql:  concat(${device},${age},${calories});;
   }
 
+
   dimension: distance {
     type: number
     sql: ${TABLE}.distance ;;
