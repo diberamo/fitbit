@@ -103,7 +103,8 @@ view: sql_runner_query_split {
       fitbit_metrics_distance,
       fitbit_metrics_gender,
       fitbit_metrics_id,
-      fitbit_metrics_id_persona
+      fitbit_metrics_id_persona,
+      test
     ]
   }
 }
