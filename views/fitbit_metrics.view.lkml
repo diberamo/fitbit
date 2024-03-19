@@ -264,11 +264,9 @@ view: fitbit_metrics {
     type: string
     sql: ${gender_string} ;;
     html:
-              {% if gender_string._value == "Mujer" %}
-              <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" height="170" width="255">
-              {% else %}
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png" height="170" width="170">
-              {%  endif %} ;;
+
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" height="80" width="80">
+           ;;
   }
 
   measure: count {
