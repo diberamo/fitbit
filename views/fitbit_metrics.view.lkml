@@ -260,6 +260,17 @@ view: fitbit_metrics {
     sql:  if(${gender}=1,"Mujer","Hombre") ;;
   }
 
+  dimension: state_flag_image {
+    type: string
+    sql: ${gender_string} ;;
+    html:
+              {% if gender_string._value == "Mujer" %}
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg" height="170" width="255">
+              {% else %}
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png" height="170" width="170">
+              {%  endif %} ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [id]
