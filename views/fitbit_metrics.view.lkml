@@ -266,6 +266,12 @@ view: fitbit_metrics {
     type: string
     sql:  if(${gender}=1,"Mujer","Hombre") ;;
 
+    link: {
+      label: "eCommerce Dashboard"
+      #url: "https://cloudcelatam.cloud.looker.com/dashboards/71?Gender={{ _filters['fitbit_metrics.gender'] | url_encode}}"
+      url: "https://cloudcelatam.cloud.looker.com/dashboards/71?Gender+String={{ fitbit_metrics.gender_string }}"
+      icon_url: "https://looker.com/favicon.ico"
+    }
 
   }
 
