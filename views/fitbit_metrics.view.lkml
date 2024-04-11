@@ -262,7 +262,7 @@ view: fitbit_metrics {
 
     link: {
     label: "eCommerce Dashboard"
-    url: "https://cloudcelatam.cloud.looker.com/dashboards/71={{ _filters['fitbit_metrics.gender_string'] | url_encode}}"
+    url: "https://cloudcelatam.cloud.looker.com/dashboards/71{{ _filters['fitbit_metrics.gender_string'] | url_encode}}"
     icon_url: "https://looker.com/favicon.ico"
     }
   }
