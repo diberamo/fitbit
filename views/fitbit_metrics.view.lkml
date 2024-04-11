@@ -96,7 +96,8 @@ view: fitbit_metrics {
     sql: ${TABLE}.gender ;;
     link: {
       label: "eCommerce Dashboard"
-      url: "https://cloudcelatam.cloud.looker.com/dashboards/71?Gender={{ _filters['fitbit_metrics.gender'] | url_encode}}"
+      #url: "https://cloudcelatam.cloud.looker.com/dashboards/71?Gender={{ _filters['fitbit_metrics.gender'] | url_encode}}"
+      url: "https://cloudcelatam.cloud.looker.com/dashboards/71?Gender={{ fitbit_metrics.gender }}"
       icon_url: "https://looker.com/favicon.ico"
     }
   }
