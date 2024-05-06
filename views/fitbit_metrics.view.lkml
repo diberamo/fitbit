@@ -285,6 +285,17 @@ view: fitbit_metrics {
            ;;
   }
 
+  dimension: brand_images {
+
+    type: string
+
+    sql: ${gender_string};;
+
+    html: <img src=”https://drive.google.com/file/d/1rJgw-MBiCCY2UQEx-2koD4EAE5Zr5bms/view?usp=drive_link&resourcekey=0-xQju3T9W0ei6yqmVINl_OQ” />;;
+
+  }
+
+
   measure: count {
     type: count
     drill_fields: [id]
