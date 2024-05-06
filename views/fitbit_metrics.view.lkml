@@ -288,7 +288,7 @@ view: fitbit_metrics {
   dimension: campo_prueba {
     type: string
     sql: ${gender_string};;
-    html: <img src=”https://drive.google.com/file/d/1rJgw-MBiCCY2UQEx-2koD4EAE5Zr5bms/view?usp=drive_link&resourcekey=0-xQju3T9W0ei6yqmVINl_OQ” height="80" width="80" />;;
+    html: <img src=”https://drive.google.com/file/d/1rJgw-MBiCCY2UQEx-2koD4EAE5Zr5bms/view?usp=drive_link&resourcekey=0-xQju3T9W0ei6yqmVINl_OQ” height="150" width="150" />;;
   }
 
 
